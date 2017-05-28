@@ -1,9 +1,41 @@
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+a:hover [class*="zocial-"]:before {
+  color: #3d85c6;
+}
+
+div#social a {
+  margin: 0 1em 0 0;
+  font-size: 1em;
+}
+
+div#social a:last-of-type {
+  margin: 0;
+}
+div#social {
+  line-height: 2em;
+}
+
 body {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   color: #747704;
 }
+hr {
+  border: none;
+  height: 1px;
+  background-color: #333;
+}
 
+.copyright{
+  text-align: right;
+  font-size: 1em;
+}
 .text-muted {
   color: #BCBBBB;
 }
