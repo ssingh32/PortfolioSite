@@ -16,3 +16,6 @@ body {
 .title-logo {
   margin-top: 20px;
 }
+.img-circle {
+    border-radius: 50%;
+}
